@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4682B4; /* Steel blue header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2{
+    color:white;
+}
+
+
+main {
+    padding: 20px;
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.upload-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.upload-button {
+    background-color: #6A5ACD; /* Slate blue button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #483D8B; /* Darker slate blue on hover */
+}
+
+.countries, .frameworks {
+    margin-bottom: 30px;
+}
+
+.countries h2, .frameworks h2 {
+   color:#4682B4;
+}
+
+.country-box, .framework-box {
+    background-color: #ADD8E6; /* Light blue box background */
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #4682B4; /* Steel blue footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
